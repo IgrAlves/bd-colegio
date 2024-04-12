@@ -13,3 +13,5 @@ WHERE ma.idmaterias = 1
 	OR ma.idmaterias = 5
     OR ma.idmaterias = 6
 GROUP BY materia, nome;
+
+/*9 - Listar todos os Alunos que cursam Português,Matemática, Química e Física*/

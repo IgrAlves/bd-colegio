@@ -5,3 +5,5 @@ INNER JOIN turmas AS t
 INNER JOIN alunos AS a
     ON m.alunos_idalunos = a.idalunos
 WHERE m.desconto < 25;
+
+/*10 - Listar todos os Alunos que tenham um valorde desconto menor que R$ 25,00;*/

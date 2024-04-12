@@ -5,3 +5,6 @@ INNER JOIN turmas AS t
 INNER JOIN alunos AS a
     ON m.alunos_idalunos = a.idalunos
 WHERE m.desconto > 25 AND a.cidade NOT LIKE '%São%';
+
+/*11 - Listar todos os alunos que não moram emSão João Nepomuceno e que possuem um valor
+de desconto maior que R$ 25,00*/

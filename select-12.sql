@@ -7,4 +7,6 @@ INNER JOIN grade AS g
 INNER JOIN turmas AS t
 	ON g.turmas_idturmas = t.idturmas
 GROUP BY p.nome;
+
+/*12 - Listar todos os professores que dão aulapara o 9º ano*/
 	

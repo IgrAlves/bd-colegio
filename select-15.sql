@@ -9,3 +9,5 @@ INNER JOIN grade AS g
 INNER JOIN materias AS ma
 	ON ma.idmaterias = g.materias_idmaterias
 GROUP BY materia, nome;
+
+/*15 - Listar todos os alunos ordenados pormatéria e nome*/

@@ -5,3 +5,5 @@ INNER JOIN alunos AS a
 INNER JOIN turmas AS t
 	ON t.idturmas = m.turmas_idturmas
 ORDER BY t.turma;
+
+/*7 - Listar todos os Alunos separados por Turmas;*/

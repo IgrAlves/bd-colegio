@@ -11,3 +11,5 @@ WHERE ma.idmaterias = 1
     OR ma.idmaterias = 6
 GROUP BY p.nome;
 	
+/*13 - Listar todos os professores que dão aula deportuguês ou matemática ou química e
+que dão aula para o 8º ano*/

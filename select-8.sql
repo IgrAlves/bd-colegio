@@ -11,4 +11,6 @@ INNER JOIN materias AS ma
 WHERE ma.idmaterias = 1
 	OR ma.idmaterias = 2
 	OR ma.idmaterias = 3
+    
+/*8 - Listar todos os Alunos que cursam Português,Matemática e Geografia;*/
 GROUP BY materia, nome;

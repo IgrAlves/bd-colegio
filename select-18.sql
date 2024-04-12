@@ -10,4 +10,6 @@ INNER JOIN materias AS ma
 	ON ma.idmaterias = g.materias_idmaterias
 INNER JOIN professores AS p
 	ON p.materias_idmaterias = ma.idmaterias
-ORDER BY p.nome, a.nome; 
+ORDER BY p.nome, a.nome;
+
+/*18 - Listar os alunos agrupados por professor*/ 

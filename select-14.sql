@@ -5,3 +5,5 @@ INNER JOIN alunos AS a
 INNER JOIN turmas AS t
 	ON t.idturmas = m.turmas_idturmas
 GROUP BY t.turma, nome;
+
+/*14 - Listar todos os alunos ordenados por turma e nome*/
