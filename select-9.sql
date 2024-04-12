@@ -10,5 +10,6 @@ INNER JOIN materias AS ma
 	ON ma.idmaterias = g.materias_idmaterias
 WHERE ma.idmaterias = 1
 	OR ma.idmaterias = 2
-	OR ma.idmaterias = 3
+	OR ma.idmaterias = 5
+    OR ma.idmaterias = 6
 GROUP BY materia, nome;
